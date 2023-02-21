@@ -7,4 +7,6 @@
   <% end %>
 </ul>
 
-<p><%= link_to 'Add new task', new_task_path %></p>
+<%= link_to new_task_path do %>
+  <span><i data-feather="plus"></i>Add new task</span>
+<% end %>
