@@ -1,24 +1,8 @@
-# README
+# Task manager with Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+The app has the possibility to perform CRUD on your daily tasks.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can CREATE new task by simply clicking on the "Add new task" in home page.
+You can READ all the tasks in the home page.
+You can UPDATE a single task by entering inside a task.
+You can DELETE a single task when inside a task.
