@@ -1,4 +1,14 @@
-<h1><%=@task.details%></h1>
+<h1>Title: '<%=@task.title%>'</h1>
+<h1>Details: '<%=@task.details%>'</h1>
+<%= link_to edit_task_path do %>
+  <span><i data-feather="edit"></i>Edit task</span>
+<% end %>
+<br>
 <%= link_to tasks_path do %>
   <span><i data-feather="arrow-left"></i>Back to your list</span>
 <% end %>
+<br>
+<%= link_to "Delete",
+  task_path(@task),
+  data: {turbo_method: :delete, turbo_confirm: "Are you sure?"}
+%>
